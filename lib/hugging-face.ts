@@ -19,7 +19,6 @@ export async function generateImage(prompt: string, seed: number) {
 
 	if (!huggingFaceResponse.ok) {
 		const body = await huggingFaceResponse.text();
-		console.log(body);
 		throw new Error(
 			`Failed to generate image. Status: ${huggingFaceResponse.status} | Body: ${body}`,
 		);

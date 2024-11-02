@@ -56,7 +56,7 @@ export async function uploadToImgBB(data: string) {
 
 	const imgBBUploadResponseJson = await imgBBUploadResponse.json();
 
-	if (!imgBBUploadResponseJson.data.url) {
+	if (!imgBBUploadResponseJson?.data?.url) {
 		throw new Error(
 			`Failed to upload image to ImgBB. Response: ${JSON.stringify(imgBBUploadResponse)}`,
 		);
