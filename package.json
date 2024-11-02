@@ -1,0 +1,17 @@
+{
+  "name": "huggingface-dhruv",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.1",
+    "hono": "^4.6.8",
+    "std-env": "^3.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "vercel": "^32.4.1"
+  }
+}
