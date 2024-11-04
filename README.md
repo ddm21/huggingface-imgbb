@@ -7,8 +7,6 @@ A simple API that generates images using Hugging Face API and uploads them to Im
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Vercel CLI Installation](#vercel-cli-installation)
-  - [Windows](#windows)
-  - [Linux](#linux) and  [macOS](#macos)
 - [Deployment](#deployment)
 - [Usage](#usage)
 
@@ -45,8 +43,6 @@ A simple API that generates images using Hugging Face API and uploads them to Im
    ```
 
 ## Vercel CLI Installation
-
-### Windows, MacOS and Linux.
 
 1. Install the Vercel CLI using npm:
    ```bash
