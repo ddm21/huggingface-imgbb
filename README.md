@@ -7,7 +7,6 @@ A simple API that generates images using Hugging Face API and uploads them to Im
 - [Requirements](#requirements)
 - [Vercel CLI Installation](#vercel-cli-installation)
 - [Deployment](#deployment)
-- [Usage](#usage)
 
 ---
 
