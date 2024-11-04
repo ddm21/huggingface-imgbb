@@ -5,7 +5,6 @@ A simple API that generates images using Hugging Face API and uploads them to Im
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Vercel CLI Installation](#vercel-cli-installation)
 - [Deployment](#deployment)
 - [Usage](#usage)
@@ -24,23 +23,6 @@ A simple API that generates images using Hugging Face API and uploads them to Im
 - **Vercel CLI** (for deployment)
 - **Hugging Face API Key**
 - **ImgBB API Key**
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ddm21/huggingface-imgbb.git
-   cd huggingface-imgbb
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file in the root directory and add your Hugging Face and ImgBB API keys:
-   ```plaintext
-   HUGGING_FACE_API_KEY=your_huggingface_api_key
-   IMGBB_API_KEY=your_imgbb_api_key
-   ```
 
 ## Vercel CLI Installation
 
@@ -61,3 +43,8 @@ A simple API that generates images using Hugging Face API and uploads them to Im
    ```
 3. Follow the on-screen prompts to complete the deployment process.
 4. After completing this steps add the Huggingface and imgBB API to Vercel Environment
+
+```plaintext
+   HUGGING_FACE_API_KEY=your_huggingface_api_key
+   IMGBB_API_KEY=your_imgbb_api_key
+```
