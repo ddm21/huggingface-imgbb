@@ -46,26 +46,13 @@ A simple API that generates images using Hugging Face API and uploads them to Im
 
 ## Vercel CLI Installation
 
-### Windows
+### Windows, MacOS and Linux.
 
-1. Open PowerShell or Command Prompt.
-2. Install the Vercel CLI using npm:
+1. Install the Vercel CLI using npm:
    ```bash
    npm install -g vercel
    ```
-
-### macOS and Linux
-
-1. Open Terminal.
-2. Install the Vercel CLI globally:
-   ```bash
-   npm install -g vercel
-   ```
-3. Verify the installation:
-   ```bash
-   vercel --version
-   ```
-
+   
 ## Deployment
 
 1. Login to Vercel:
