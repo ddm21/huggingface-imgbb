@@ -42,8 +42,7 @@ A simple API that generates images using Hugging Face API and uploads them to Im
    ```
 3. Follow the on-screen prompts to complete the deployment process.
 4. After completing this steps add the Huggingface and imgBB API to Vercel Environment
-
-```plaintext
+   ```plaintext
    HUGGING_FACE_API_KEY=your_huggingface_api_key
    IMGBB_API_KEY=your_imgbb_api_key
-```
+   ```
